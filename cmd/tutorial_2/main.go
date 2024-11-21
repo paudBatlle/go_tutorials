@@ -10,7 +10,7 @@ func main() {
 	printMe(printValue)
 
 	var numerator int = 10
-	var denominator int = 3
+	var denominator int = 2
 	var result, remainder, err = intDivision(numerator, denominator)
 	if err != nil {
 		fmt.Println(err.Error())
